@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0458F4611F00E18500BD61A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F45E1F00E18500BD61A7 /* ViewController.swift */; };
+		0458F4621F00E18500BD61A7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F45F1F00E18500BD61A7 /* LoginController.swift */; };
+		0458F4631F00E18500BD61A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F4601F00E18500BD61A7 /* AppDelegate.swift */; };
+		049E42801EFBAF22004F5232 /* S_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 049E427F1EFBAF22004F5232 /* S_logo.png */; };
+		04BDACEA1EFB9AB400260D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BDACE91EFB9AB400260D51 /* Assets.xcassets */; };
+		04BDACF81EFB9AB400260D51 /* Adventure_SportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDACF71EFB9AB400260D51 /* Adventure_SportsTests.swift */; };
+		04BDAD031EFB9AB400260D51 /* Adventure_SportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDAD021EFB9AB400260D51 /* Adventure_SportsUITests.swift */; };
+		04BDAD111EFB9B2500260D51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BDAD101EFB9B2500260D51 /* GoogleService-Info.plist */; };
+		F271AB42B5598D66C5FCFFB2 /* Pods_Adventure_Sports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A14954AA4457FEBB5C69AA8 /* Pods_Adventure_Sports.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BDACF41EFB9AB400260D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BDACD71EFB9AB400260D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BDACDE1EFB9AB400260D51;
+			remoteInfo = "Adventure Sports";
+		};
+		04BDACFF1EFB9AB400260D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BDACD71EFB9AB400260D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BDACDE1EFB9AB400260D51;
+			remoteInfo = "Adventure Sports";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0458F45E1F00E18500BD61A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/gameofchats 3/gameofchats/ViewController.swift"; sourceTree = "<group>"; };
+		0458F45F1F00E18500BD61A7 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = "../../../Downloads/gameofchats 3/gameofchats/LoginController.swift"; sourceTree = "<group>"; };
+		0458F4601F00E18500BD61A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/gameofchats 3/gameofchats/AppDelegate.swift"; sourceTree = "<group>"; };
+		049E427F1EFBAF22004F5232 /* S_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S_logo.png; sourceTree = "<group>"; };
+		04BDACDF1EFB9AB400260D51 /* Adventure Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adventure Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDACE91EFB9AB400260D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BDACEE1EFB9AB400260D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDACF31EFB9AB400260D51 /* Adventure SportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adventure SportsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDACF71EFB9AB400260D51 /* Adventure_SportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure_SportsTests.swift; sourceTree = "<group>"; };
+		04BDACF91EFB9AB400260D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDACFE1EFB9AB400260D51 /* Adventure SportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adventure SportsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDAD021EFB9AB400260D51 /* Adventure_SportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure_SportsUITests.swift; sourceTree = "<group>"; };
+		04BDAD041EFB9AB400260D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BDAD101EFB9B2500260D51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A14954AA4457FEBB5C69AA8 /* Pods_Adventure_Sports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adventure_Sports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3CA97EF35227CB170C20CD /* Pods-Adventure Sports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventure Sports.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adventure Sports/Pods-Adventure Sports.debug.xcconfig"; sourceTree = "<group>"; };
+		A6233102339EF99FD29F56D4 /* Pods-Adventure Sports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventure Sports.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adventure Sports/Pods-Adventure Sports.release.xcconfig"; sourceTree = "<group>"; };
+		B775BD15483A6CEAB20E083B /* Pods_Adventure_SportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adventure_SportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9134EE7A4E2FA48D2BB62A9 /* Pods_Adventure_SportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adventure_SportsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BDACDC1EFB9AB400260D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F271AB42B5598D66C5FCFFB2 /* Pods_Adventure_Sports.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDACF01EFB9AB400260D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDACFB1EFB9AB400260D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049E427E1EFBAF1A004F5232 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				049E427F1EFBAF22004F5232 /* S_logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		04BDACD61EFB9AB400260D51 = {
+			isa = PBXGroup;
+			children = (
+				04BDACE11EFB9AB400260D51 /* Adventure Sports */,
+				04BDACF61EFB9AB400260D51 /* Adventure SportsTests */,
+				04BDAD011EFB9AB400260D51 /* Adventure SportsUITests */,
+				04BDACE01EFB9AB400260D51 /* Products */,
+				F5F69D604E8C769E6E4561B5 /* Pods */,
+				85E645C0F3F607297FB663FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04BDACE01EFB9AB400260D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BDACDF1EFB9AB400260D51 /* Adventure Sports.app */,
+				04BDACF31EFB9AB400260D51 /* Adventure SportsTests.xctest */,
+				04BDACFE1EFB9AB400260D51 /* Adventure SportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BDACE11EFB9AB400260D51 /* Adventure Sports */ = {
+			isa = PBXGroup;
+			children = (
+				049E427E1EFBAF1A004F5232 /* images */,
+				04BDAD101EFB9B2500260D51 /* GoogleService-Info.plist */,
+				0458F4601F00E18500BD61A7 /* AppDelegate.swift */,
+				0458F45F1F00E18500BD61A7 /* LoginController.swift */,
+				0458F45E1F00E18500BD61A7 /* ViewController.swift */,
+				04BDACE91EFB9AB400260D51 /* Assets.xcassets */,
+				04BDACEE1EFB9AB400260D51 /* Info.plist */,
+			);
+			path = "Adventure Sports";
+			sourceTree = "<group>";
+		};
+		04BDACF61EFB9AB400260D51 /* Adventure SportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BDACF71EFB9AB400260D51 /* Adventure_SportsTests.swift */,
+				04BDACF91EFB9AB400260D51 /* Info.plist */,
+			);
+			path = "Adventure SportsTests";
+			sourceTree = "<group>";
+		};
+		04BDAD011EFB9AB400260D51 /* Adventure SportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BDAD021EFB9AB400260D51 /* Adventure_SportsUITests.swift */,
+				04BDAD041EFB9AB400260D51 /* Info.plist */,
+			);
+			path = "Adventure SportsUITests";
+			sourceTree = "<group>";
+		};
+		85E645C0F3F607297FB663FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A14954AA4457FEBB5C69AA8 /* Pods_Adventure_Sports.framework */,
+				B775BD15483A6CEAB20E083B /* Pods_Adventure_SportsTests.framework */,
+				B9134EE7A4E2FA48D2BB62A9 /* Pods_Adventure_SportsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5F69D604E8C769E6E4561B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A3CA97EF35227CB170C20CD /* Pods-Adventure Sports.debug.xcconfig */,
+				A6233102339EF99FD29F56D4 /* Pods-Adventure Sports.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BDACDE1EFB9AB400260D51 /* Adventure Sports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BDAD071EFB9AB400260D51 /* Build configuration list for PBXNativeTarget "Adventure Sports" */;
+			buildPhases = (
+				DBD559EE0D153B8D74628A0D /* [CP] Check Pods Manifest.lock */,
+				04BDACDB1EFB9AB400260D51 /* Sources */,
+				04BDACDC1EFB9AB400260D51 /* Frameworks */,
+				04BDACDD1EFB9AB400260D51 /* Resources */,
+				7404F4F55643974321D41738 /* [CP] Embed Pods Frameworks */,
+				D20F8F10D6F7DB63E7461468 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adventure Sports";
+			productName = "Adventure Sports";
+			productReference = 04BDACDF1EFB9AB400260D51 /* Adventure Sports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BDACF21EFB9AB400260D51 /* Adventure SportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BDAD0A1EFB9AB400260D51 /* Build configuration list for PBXNativeTarget "Adventure SportsTests" */;
+			buildPhases = (
+				04BDACEF1EFB9AB400260D51 /* Sources */,
+				04BDACF01EFB9AB400260D51 /* Frameworks */,
+				04BDACF11EFB9AB400260D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BDACF51EFB9AB400260D51 /* PBXTargetDependency */,
+			);
+			name = "Adventure SportsTests";
+			productName = "Adventure SportsTests";
+			productReference = 04BDACF31EFB9AB400260D51 /* Adventure SportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BDACFD1EFB9AB400260D51 /* Adventure SportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BDAD0D1EFB9AB400260D51 /* Build configuration list for PBXNativeTarget "Adventure SportsUITests" */;
+			buildPhases = (
+				04BDACFA1EFB9AB400260D51 /* Sources */,
+				04BDACFB1EFB9AB400260D51 /* Frameworks */,
+				04BDACFC1EFB9AB400260D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BDAD001EFB9AB400260D51 /* PBXTargetDependency */,
+			);
+			name = "Adventure SportsUITests";
+			productName = "Adventure SportsUITests";
+			productReference = 04BDACFE1EFB9AB400260D51 /* Adventure SportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BDACD71EFB9AB400260D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jack Korbin Kelley";
+				TargetAttributes = {
+					04BDACDE1EFB9AB400260D51 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					04BDACF21EFB9AB400260D51 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 04BDACDE1EFB9AB400260D51;
+					};
+					04BDACFD1EFB9AB400260D51 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 04BDACDE1EFB9AB400260D51;
+					};
+				};
+			};
+			buildConfigurationList = 04BDACDA1EFB9AB400260D51 /* Build configuration list for PBXProject "Adventure Sports" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BDACD61EFB9AB400260D51;
+			productRefGroup = 04BDACE01EFB9AB400260D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BDACDE1EFB9AB400260D51 /* Adventure Sports */,
+				04BDACF21EFB9AB400260D51 /* Adventure SportsTests */,
+				04BDACFD1EFB9AB400260D51 /* Adventure SportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BDACDD1EFB9AB400260D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049E42801EFBAF22004F5232 /* S_logo.png in Resources */,
+				04BDAD111EFB9B2500260D51 /* GoogleService-Info.plist in Resources */,
+				04BDACEA1EFB9AB400260D51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDACF11EFB9AB400260D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDACFC1EFB9AB400260D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7404F4F55643974321D41738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adventure Sports/Pods-Adventure Sports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20F8F10D6F7DB63E7461468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adventure Sports/Pods-Adventure Sports-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD559EE0D153B8D74628A0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BDACDB1EFB9AB400260D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458F4631F00E18500BD61A7 /* AppDelegate.swift in Sources */,
+				0458F4611F00E18500BD61A7 /* ViewController.swift in Sources */,
+				0458F4621F00E18500BD61A7 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDACEF1EFB9AB400260D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDACF81EFB9AB400260D51 /* Adventure_SportsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BDACFA1EFB9AB400260D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDAD031EFB9AB400260D51 /* Adventure_SportsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BDACF51EFB9AB400260D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BDACDE1EFB9AB400260D51 /* Adventure Sports */;
+			targetProxy = 04BDACF41EFB9AB400260D51 /* PBXContainerItemProxy */;
+		};
+		04BDAD001EFB9AB400260D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BDACDE1EFB9AB400260D51 /* Adventure Sports */;
+			targetProxy = 04BDACFF1EFB9AB400260D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04BDAD051EFB9AB400260D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BDAD061EFB9AB400260D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BDAD081EFB9AB400260D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3CA97EF35227CB170C20CD /* Pods-Adventure Sports.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LHKSV7UKAG;
+				INFOPLIST_FILE = "Adventure Sports/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ASA.Adventure-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BDAD091EFB9AB400260D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6233102339EF99FD29F56D4 /* Pods-Adventure Sports.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LHKSV7UKAG;
+				INFOPLIST_FILE = "Adventure Sports/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ASA.Adventure-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04BDAD0B1EFB9AB400260D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LHKSV7UKAG;
+				INFOPLIST_FILE = "Adventure SportsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adventure-SportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventure Sports.app/Adventure Sports";
+			};
+			name = Debug;
+		};
+		04BDAD0C1EFB9AB400260D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LHKSV7UKAG;
+				INFOPLIST_FILE = "Adventure SportsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adventure-SportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adventure Sports.app/Adventure Sports";
+			};
+			name = Release;
+		};
+		04BDAD0E1EFB9AB400260D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LHKSV7UKAG;
+				INFOPLIST_FILE = "Adventure SportsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adventure-SportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adventure Sports";
+			};
+			name = Debug;
+		};
+		04BDAD0F1EFB9AB400260D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LHKSV7UKAG;
+				INFOPLIST_FILE = "Adventure SportsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Adventure-SportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adventure Sports";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BDACDA1EFB9AB400260D51 /* Build configuration list for PBXProject "Adventure Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDAD051EFB9AB400260D51 /* Debug */,
+				04BDAD061EFB9AB400260D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BDAD071EFB9AB400260D51 /* Build configuration list for PBXNativeTarget "Adventure Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDAD081EFB9AB400260D51 /* Debug */,
+				04BDAD091EFB9AB400260D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BDAD0A1EFB9AB400260D51 /* Build configuration list for PBXNativeTarget "Adventure SportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDAD0B1EFB9AB400260D51 /* Debug */,
+				04BDAD0C1EFB9AB400260D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BDAD0D1EFB9AB400260D51 /* Build configuration list for PBXNativeTarget "Adventure SportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDAD0E1EFB9AB400260D51 /* Debug */,
+				04BDAD0F1EFB9AB400260D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BDACD71EFB9AB400260D51 /* Project object */;
+}
