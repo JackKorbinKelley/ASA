@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0458F4611F00E18500BD61A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F45E1F00E18500BD61A7 /* ViewController.swift */; };
-		0458F4621F00E18500BD61A7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F45F1F00E18500BD61A7 /* LoginController.swift */; };
+		0455F46E1F0B77030002E2CF /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F46D1F0B77030002E2CF /* StudentCell.swift */; };
+		0458F4611F00E18500BD61A7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F45E1F00E18500BD61A7 /* MainVC.swift */; };
+		0458F4621F00E18500BD61A7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F45F1F00E18500BD61A7 /* LoginVC.swift */; };
 		0458F4631F00E18500BD61A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458F4601F00E18500BD61A7 /* AppDelegate.swift */; };
 		049E42801EFBAF22004F5232 /* S_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 049E427F1EFBAF22004F5232 /* S_logo.png */; };
+		04B7D3CD1F035FA9005F0DF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D3CC1F035FA9005F0DF1 /* MainStoryboard.storyboard */; };
+		04B7D3CF1F035FD2005F0DF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B7D3CE1F035FD2005F0DF1 /* LaunchScreen.storyboard */; };
 		04BDACEA1EFB9AB400260D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BDACE91EFB9AB400260D51 /* Assets.xcassets */; };
 		04BDACF81EFB9AB400260D51 /* Adventure_SportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDACF71EFB9AB400260D51 /* Adventure_SportsTests.swift */; };
 		04BDAD031EFB9AB400260D51 /* Adventure_SportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDAD021EFB9AB400260D51 /* Adventure_SportsUITests.swift */; };
@@ -36,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0458F45E1F00E18500BD61A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/gameofchats 3/gameofchats/ViewController.swift"; sourceTree = "<group>"; };
-		0458F45F1F00E18500BD61A7 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = "../../../Downloads/gameofchats 3/gameofchats/LoginController.swift"; sourceTree = "<group>"; };
+		0455F46D1F0B77030002E2CF /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		0458F45E1F00E18500BD61A7 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = "../../../Downloads/gameofchats 3/gameofchats/MainVC.swift"; sourceTree = "<group>"; };
+		0458F45F1F00E18500BD61A7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = "../../../Downloads/gameofchats 3/gameofchats/LoginVC.swift"; sourceTree = "<group>"; };
 		0458F4601F00E18500BD61A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/gameofchats 3/gameofchats/AppDelegate.swift"; sourceTree = "<group>"; };
 		049E427F1EFBAF22004F5232 /* S_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S_logo.png; sourceTree = "<group>"; };
+		04B7D3CC1F035FA9005F0DF1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		04B7D3CE1F035FD2005F0DF1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BDACDF1EFB9AB400260D51 /* Adventure Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adventure Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BDACE91EFB9AB400260D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BDACEE1EFB9AB400260D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,11 +122,14 @@
 		04BDACE11EFB9AB400260D51 /* Adventure Sports */ = {
 			isa = PBXGroup;
 			children = (
+				04B7D3CE1F035FD2005F0DF1 /* LaunchScreen.storyboard */,
+				0455F46D1F0B77030002E2CF /* StudentCell.swift */,
 				049E427E1EFBAF1A004F5232 /* images */,
 				04BDAD101EFB9B2500260D51 /* GoogleService-Info.plist */,
 				0458F4601F00E18500BD61A7 /* AppDelegate.swift */,
-				0458F45F1F00E18500BD61A7 /* LoginController.swift */,
-				0458F45E1F00E18500BD61A7 /* ViewController.swift */,
+				04B7D3CC1F035FA9005F0DF1 /* MainStoryboard.storyboard */,
+				0458F45F1F00E18500BD61A7 /* LoginVC.swift */,
+				0458F45E1F00E18500BD61A7 /* MainVC.swift */,
 				04BDACE91EFB9AB400260D51 /* Assets.xcassets */,
 				04BDACEE1EFB9AB400260D51 /* Info.plist */,
 			);
@@ -273,6 +282,8 @@
 			files = (
 				049E42801EFBAF22004F5232 /* S_logo.png in Resources */,
 				04BDAD111EFB9B2500260D51 /* GoogleService-Info.plist in Resources */,
+				04B7D3CD1F035FA9005F0DF1 /* MainStoryboard.storyboard in Resources */,
+				04B7D3CF1F035FD2005F0DF1 /* LaunchScreen.storyboard in Resources */,
 				04BDACEA1EFB9AB400260D51 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +358,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0458F4631F00E18500BD61A7 /* AppDelegate.swift in Sources */,
-				0458F4611F00E18500BD61A7 /* ViewController.swift in Sources */,
-				0458F4621F00E18500BD61A7 /* LoginController.swift in Sources */,
+				0458F4611F00E18500BD61A7 /* MainVC.swift in Sources */,
+				0458F4621F00E18500BD61A7 /* LoginVC.swift in Sources */,
+				0455F46E1F0B77030002E2CF /* StudentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +416,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -459,6 +473,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;

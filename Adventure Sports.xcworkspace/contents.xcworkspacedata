@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:StudentCell.swift">
+   </FileRef>
+   <FileRef
       location = "group:Adventure Sports.xcodeproj">
    </FileRef>
    <FileRef
